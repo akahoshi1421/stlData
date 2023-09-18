@@ -21,24 +21,24 @@ for line in f.readlines():
 
         if x[0] == "0":
             if "+00" in x:
-                thisLine += "${super.x}" + x[1:len(x) - 2] + "01"
+                thisLine += "${this.x}" + x[1:len(x) - 2] + "01"
             else:
-                thisLine += "${super.x}" + x[1:]
+                thisLine += "${this.x}" + x[1:]
 
         elif x[0] == "1":
-            thisLine += "${super.x+1}" + x[1:]
+            thisLine += "${this.x+1}" + x[1:]
 
         if y[0] == "0":
-            thisLine += "  ${super.y}" + y[1:]
+            thisLine += "  ${this.y}" + y[1:]
 
         elif y[0] == "1":
-            thisLine += "  ${super.y+1}" + y[1:]
+            thisLine += "  ${this.y+1}" + y[1:]
 
         if z[0] == "0":
-            thisLine += "  ${super.z}" + z[1:]
+            thisLine += "  ${this.z}" + z[1:]
 
         elif z[0] == "1":
-            thisLine += "  ${super.z+1}" + z[1:]
+            thisLine += "  ${this.z+1}" + z[1:]
 
         thisLine += "\n"
 
