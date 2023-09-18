@@ -1,6 +1,6 @@
 path = input("path?")
 
-f = open(path, "r")
+f = open(path[1:len(path) - 1], "r")
 
 result = ""
 
