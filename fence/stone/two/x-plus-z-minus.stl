@@ -91,6 +91,8 @@ solid cube-ascii
 
 
 
+
+
     facet normal  1.000000e+01  0.000000e+00  0.000000e+01
         outer loop
             vertex  1.000000e+01  0.800000e+01  0.312500e+01
@@ -180,6 +182,9 @@ solid cube-ascii
             vertex  0.750000e+01  0.800000e+01  0.312500e+01       
         endloop
     endfacet
+
+
+
 
 
 
