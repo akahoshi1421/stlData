@@ -286,7 +286,7 @@ solid cube-ascii
         outer loop
             vertex  0.875000e+01  0.937500e+01  0.437500e+01
             vertex  0.875000e+01  0.750000e+01  0.562500e+01
-            vertex  0.875000e+01  0.937500e+01  0.437500e+01
+            vertex  0.875000e+01  0.750000e+01  0.437500e+01
         endloop
     endfacet
     facet normal  1.000000e+01  0.000000e+00  0.000000e+01
